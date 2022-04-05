@@ -1,2 +1,2 @@
-# js-sandbox
+# box
 Created with CodeSandbox
