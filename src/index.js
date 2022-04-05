@@ -1,27 +1,19 @@
-/program for a simple calculator
+//program for a simple calculator
 // take an operator
-const operator = parseFloat(prompt("Enter the operator (either +, -, *, / )"));
-var firstNumber = parsefloat(prompt("Enter the firstNumber"));
-var secondNumber = parseFloat(prompt("Enter the secondNumber"));
+const operator = prompt("Enter the operator (either +, -, *, / )");
+var firstNumber = prompt("Enter the firstNumber");
+var secondNumber = prompt("Enter the secondNumber");
 //result using if....else if....else
 let result;
 // using if....else if....else
 if (operator === "+") {
-  result = Number(firstNumber) + Number(secondNumber);
-  console.log(addition);
-} 
-else if (operator === "-") {
-  result = Number(firstNumber) - Number(secondNumber);
-  console.log(subtract);
-} 
-else if (operator === "*") {
-  result = Number(firstNumber) * Number(secondNumber);
-  console.log(multiply);
-} 
-else if (operator === "/") {
-  result = Number(firstNumber) / Number(secondNumber);
-  console.log(division);
-} 
-else {
+  alert((result = Number(firstNumber) + Number(secondNumber)));
+} else if (operator === "-") {
+  alert((result = Number(firstNumber) - Number(secondNumber)));
+} else if (operator === "*") {
+  alert((result = Number(firstNumber) * Number(secondNumber)));
+} else if (operator === "/") {
+  alert((result = Number(firstNumber) / Number(secondNumber)));
+} else {
   result = Number(firstNumber) + Number(secondNumber);
 }
