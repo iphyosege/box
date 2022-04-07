@@ -1,2 +1,3 @@
-# js-sandbox
+# simple calculator
+
 Created with CodeSandbox
